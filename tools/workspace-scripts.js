@@ -63,6 +63,20 @@ module.exports = {
 		// packages
 		// build output is always in dist/packages
 		'@nativescript': {
+			// @nativescript/nativescript-onesignal-skd
+			'nativescript-onesignal-skd': {
+				build: {
+					script: 'nx run nativescript-onesignal-skd:build.all',
+					description: '@nativescript/nativescript-onesignal-skd: Build',
+				},
+			},
+			// @nativescript/nativescript-onesignal-sdk
+			'nativescript-onesignal-sdk': {
+				build: {
+					script: 'nx run nativescript-onesignal-sdk:build.all',
+					description: '@nativescript/nativescript-onesignal-sdk: Build',
+				},
+			},
 			'build-all': {
 				script: 'nx run all:build',
 				description: 'Build all packages',
@@ -73,10 +87,18 @@ module.exports = {
 			description: '_____________  Focus (VS Code supported)  _____________',
 		},
 		focus: {
+			'nativescript-onesignal-skd': {
+				script: 'nx run nativescript-onesignal-skd:focus',
+				description: 'Focus on @nativescript/nativescript-onesignal-skd',
+			},
+			'nativescript-onesignal-sdk': {
+				script: 'nx run nativescript-onesignal-sdk:focus',
+				description: 'Focus on @nativescript/nativescript-onesignal-sdk',
+			},
 			reset: {
 				script: 'nx run all:focus',
 				description: 'Reset Focus',
-			}
+			},
 		},
 		'.....................': {
 			script: `npx cowsay "That's all for now folks ~"`,

@@ -22,6 +22,9 @@
 		},
 		"all": {
 			"tags": []
+		},
+		"nativescript-onesignal-sdk": {
+			"tags": []
 		}
 	},
 	"workspaceLayout": {
