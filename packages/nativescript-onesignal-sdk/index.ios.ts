@@ -1,1 +1,1 @@
-export const NativescriptOnesignalSdk = {};
+export const NativescriptOnesignalSdk = OneSignal;
