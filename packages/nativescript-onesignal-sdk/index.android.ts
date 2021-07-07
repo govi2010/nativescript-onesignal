@@ -1,3 +1,1 @@
-import { NativescriptOnesignalSdkCommon } from './common';
-
-export class NativescriptOnesignalSdk extends NativescriptOnesignalSdkCommon {}
+export const NativescriptOnesignalSdk = com.onesignal.OneSignal;
