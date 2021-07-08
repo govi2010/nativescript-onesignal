@@ -6,7 +6,6 @@
 	"dependencies": {
 		"nativescript-theme-core": "file:../../node_modules/nativescript-theme-core",
 		"@nativescript/core": "file:../../node_modules/@nativescript/core",
-		"@nativescript/nativescript-onesignal-skd": "file:../../packages/nativescript-onesignal-skd",
 		"@nativescript/nativescript-onesignal-sdk": "file:../../packages/nativescript-onesignal-sdk"
 	},
 	"devDependencies": {
